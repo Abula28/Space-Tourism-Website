@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+    <!-- Bellefair font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Kumbh+Sans:wght@400;500&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Barlow Condensed font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Kumbh+Sans:wght@400;500&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Barlow font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&family=Kumbh+Sans:wght@400;500&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+    
+
+
+
+    <script src="app.js" defer></script>
+
+    <title>Space Tourism Website</title>
+
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/Logo.svg" alt="logo" class="logo">
+        <a  class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="line"></div>
+        <div class="nav-list">
+            <ul>
+                <li class="navBtn"><a href="#home"><span>00</span>HOME</a></li>
+                <li class="navBtn"><a href="#destination"><span>01</span>DESTINATION</a></li>
+                <li class="navBtn"><a href="#crew"><span>02</span>CREW</a></li>
+                <li class="navBtn"><a href="#technology"><span>03</span>TECHNOLOGY</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="first-sect" id="home">
+
+        <div class="info-sect">
+            <div class="info-text left-hidden">
+                <h2>SO, YOU WANT TO TRAVEL TO</h2>
+                <h1>SPACE</h1>
+                <p>
+                    Let’s face it; if you want to go to space,<br>
+                    you might as well genuinely go to outer space and not hover kind of on the<br>
+                    edge of it. Well sit back, and relax because we’ll give you a<br>
+                    truly out of this world experience!<br>
+                </p>
+            </div>
+
+            <div class="explore right-hidden">
+                <button class="explore-btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-section" id="destination">
+        <div class="second-sect-div">
+
+            <h2 class="pick-dest left-hidden header"><span>01</span> Pick your destination</h2>
+
+            <div class="dest-div">
+
+                <img src="images/Moon.png" alt="Moon" class="planet-img left-hidden">
+
+                <div class="dests right-hidden">
+
+                    <div class="dest-list">
+
+                        <ul>
+                            <li class="list clicked-list moonBtn">MOON</li>
+                            <li class="list marsBtn">MARS</li>
+                            <li class="list europaBtn">EUROPA</li>
+                            <li class="list titanBtn">TITAN</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="dest-text">
+                        <h1 class="head">MOON</h1>
+                        
+                        <p class="info">
+                            See our planet as you’ve never seen it before. A perfect <br>
+                            relaxing trip away to help regain perspective and come <br>
+                            back refreshed. While you’re there, take in some history <br>
+                            by visiting the Luna 2 and Apollo 11 landing sites. <br>
+                        </p>
+                        
+                    </div>
+
+                    <div class="dest-line"></div>
+                    
+                    <div class="dist-time">
+    
+                        <div class="distance">
+    
+                            <p>AVG. DISTANCE</p>
+                            <h3 class="avg-dist">384,400 km</h3>
+    
+                        </div>
+    
+                        <div class="distance">
+                            
+                            <p>Est. travel time</p>
+                            <h3 class="time">3 days</h3>
+    
+                        </div>
+    
+                    </div>
+                    
+                </div>
+
+
+            </div>
+    </div>
+    </section>
+
+    <section class="third-section" id="crew">
+
+        <div class="third-sect-div">
+
+            <h1 class="header left-hidden"><span>02</span> Meet your crew</h1>
+            
+            <div class="crew">
+                <div class="crew-text left-hidden">
+
+                    <h3 class="rank">Commander</h3>
+
+                    <h1 class="name">Douglas Hurley</h1>
+
+                    <p class="guy-info">
+                        Douglas Gerald Hurley is an American engineer, former<br> 
+                        Marine Corps pilot and former NASA astronaut. He<br> 
+                        launched into space for the third time as commander of<br> 
+                        Crew Dragon Demo-2.
+                    </p>
+
+                </div>
+
+                <img src="images/douglas.png" alt="douglas" class="guy-img right-hidden">
+
+            </div>
+            <div class="buttons left-hidden">
+                <div class="button1 activeBtn"></div>
+                <div class="button2"></div>
+                <div class="button3"></div>
+                <div class="button4"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="fourth-section" id="technology">
+        <div class="fourth-sect-div">
+            <h1 class="header left-hidden"><span>03</span> SPACE LAUNCH 101</h1>
+            <div class="launch-div">
+                <div class="btns left-hidden">
+                    <div class="btn1 activeDiv">1</div>
+                    <div class="btn2">2</div>
+                    <div class="btn3">3</div>
+                </div>
+                <div class="launch-text hidden">
+                    <h3>THE TERMINOLOGY…</h3>
+
+                    <h1 class="launch-head">LAUNCH VEHICLE</h1>
+
+                    <p class="launch-info">
+                        A launch vehicle or carrier rocket is a rocket-propelled<br> 
+                        vehicle used to carry a payload from Earth's surface to<br> 
+                        space, usually to Earth orbit or beyond. Our WEB-X<br> 
+                        carrier rocket is the most powerful in operation.<br> 
+                        Standing 150 metres tall, it's quite an awe-inspiring sight on<br> 
+                        the launch pad!
+                    </p>
+                </div>
+
+                <img src="images/launch-vehicle.png" alt="launch-vehicle" class="launch-img right-hidden firstImg">
+                <!-- <img src="images/launch-vehicle-tablet.png" alt="launch-vehicle-tablet" class="launch-img right-hidden secImg"> -->
+            </div>
+            
+            
+        </div>
+
+
+    </section>
+</body>
+</html>

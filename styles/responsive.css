@@ -1,0 +1,390 @@
+@media(max-width: 880px){
+
+    .first-sect{
+        background-image: url(../images/First-sect-img-mobile.png);
+    }
+
+    .info-sect{
+       padding: 202px 0px 0px;
+    }
+
+    .navbar{
+        padding: 0;
+        justify-content: space-between;
+    }
+    .line{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 0px;
+        /* margin-right: 50px; */
+    }
+
+    /* .nav-list{
+        width: 350px;
+    } */
+
+    .nav-list ul{
+        justify-content: flex-end;
+    }
+
+
+    .nav-list ul li{
+        padding: 38px 37px 38px;
+    }
+
+    .nav-list ul li a{
+        font-size: 14px;
+    }
+    .nav-list ul li a span{
+        display: none;
+    }
+
+    .info-sect{
+        flex-direction: column;
+    }
+    
+    .info-text{
+        margin-bottom: 156px;
+        text-align: center;
+    }
+
+    .info-text h2{
+        margin-bottom: 24px;
+        font-size: 20px;
+    }
+
+    .info-text h1{
+        margin-bottom: 56px;
+    }
+
+    .explore{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 90px;
+    }
+
+    .dest-div{
+        flex-direction: column;
+        justify-content: center;
+        gap: 53px;
+    }
+    .header{
+        padding-left: 38.5px;
+    }
+
+    .dests{
+        text-align: center;
+    }
+
+    .dest-text h1{
+        font-size: 88px;
+    }
+
+    .dest-text p {
+        font-size: 16px;
+    }
+
+    .distance p{
+        font-size: 17px;
+    }
+
+    .distance h3{
+        font-size: 28px;
+    }
+
+    .dest-list ul{
+        justify-content: center;
+    }
+
+    .planet-img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .crew{
+        margin-top: 60px;
+        flex-direction: column;
+        gap: 119px;
+    }
+
+    .crew img {
+        width: 539.51px;
+        height: 532px;
+    }
+
+    .crew-text{
+        text-align: center;
+    }
+
+    .buttons{
+        left: 370px;
+        top: 670px;
+    }
+    .third-section{
+        height: auto;
+    }
+
+
+    .launch-div{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    /* .secImg{
+        display: flex;
+    }
+    .firstImg{
+        display: none;
+    } */
+
+    .launch-img{
+        order: 1;
+        margin-bottom: 55px;
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        height: 310px;
+        background-position: center;
+    }
+    .launch-text{
+        order: 3;
+        text-align: center;
+    }
+
+    .launch-text h1{
+        font-size: 40px;
+    }
+
+    .launch-text p {
+        font-size: 16px;
+    }
+
+    .btns{
+        order: 2;
+        flex-direction: row;
+        margin-bottom: 44px;
+    }
+
+    .btns div{
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 540px){
+    .navbar{
+        padding: 24px 24px 0px 24px;
+    }
+    .toggle-button{
+        display: flex;
+        z-index: 4;
+    }
+
+    .toggle-button.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .toggle-button.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .toggle-button.active .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+    .nav-list{
+        position: fixed;
+        top: 0px;
+        right: -500px;
+        height: 100vh;
+        width: 254px;
+        transition: all .5s;
+    }
+    .nav-list ul{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 118px;
+    }
+
+    .nav-list.active{
+        right: 0px;
+    }
+
+    .nav-list ul li{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 0px 0px 10px 32px;
+    }
+
+    .nav-list ul li a {
+        padding-right: 130px;
+        padding-bottom: 20px;
+        display: flex;
+    }
+
+    .nav-list ul li a span{
+        display: flex;
+    }
+
+    .nav-list ul li.clicked-nav{
+        border-right: 3px solid  white;
+        border-bottom: none;
+    }
+
+    .header{
+        font-size: 16px;
+    }
+
+    .explore{
+        width: 250px;
+        height: 250px;
+    }
+
+    .info-text{
+        margin-bottom: 81px;
+    }
+
+    .info-text h2{
+        font-size: 16px;
+    }
+
+    .info-text h1{
+        font-size: 80px;
+    }
+    
+    .info-text p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .explore-btn{
+        font-size: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .explore:hover{
+        background-image: none;
+    }
+
+    .header{
+        margin: 0px auto 0px;
+        padding: 0px;
+    }
+
+    .fourth-sect-div .header{
+        text-align: center;
+    }
+
+
+    .planet-img{
+        width: 170px;
+        height: 170px;
+    }
+
+    .dest-list ul li{
+        font-size: 14px;
+    }
+
+    .dest-text h1{
+        font-size: 56px;
+    }
+
+    .dest-text p{
+        font-size: 15px;
+    }
+
+    .dist-time{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .distance p{
+        font-size: 14px;
+    }
+
+    .distance h3{
+        font-size: 28px;
+    }
+
+
+    .crew{
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third-sect-div{
+        padding: 88px 0px 104px;
+    }
+
+    .crew img{
+        width: 327px;
+        height: 223px;
+    }
+
+    .buttons{
+        width: 88px;
+        height: 10px;
+        top: 600px;
+        left: 180px;
+    }
+
+    .buttons div{
+        width: 10px;
+        height: 10px;
+    }
+
+    .crew-text{
+        width: 400px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .crew-text h3{
+        font-size: 16px;
+    }
+
+    .crew-text h1{
+        font-size: 24px;
+    }
+
+    .buttons{
+        top: 450px;
+        left: 125px;
+    }
+
+    .crew-text p {
+        font-size: 15px;
+    }
+
+    .launch-img{
+        height: 170px;
+    }
+
+
+    .launch-text h3{
+        font-size: 14px;
+    }
+
+    .launch-text h1{
+        font-size: 24px;
+    }
+
+    .launch-text p{
+        font-size: 15px;
+    }
+
+}
