@@ -83,7 +83,7 @@ let operations = {
         img: "images/Europa.png",
         head: "EUROPA",
         info: "The smallest of the four Galilean moons orbiting Jupiter,<br> Europa is a winter lover’s dream. With an icy surface, it’s<br> perfect for a bit of ice skating, curling, hockey, or simple <br>  relaxation in your snug wintery cabin.",
-        avg: "225 MIL. km",
+        avg: "628 MIL. km",
         time: "9 months"
     },
     titan: {
